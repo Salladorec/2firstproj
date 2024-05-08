@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("negr.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    margin-right: 550px;
+}
+
+ul {
+    background: blueviolet;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+    margin-bottom: auto;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid greenyellow;
+    width: 560px;
+  }
+
+a {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 80px;
+    margin-left: 80px;
+    color: black;
+    /* Цвет текста */
+    text-align: center;
+    /* Расположение текста */
+    font-size: 70px;
+    /* Размер текста */
+}
+
+h2 {
+    margin: 20px 50px 30px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.huy {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 35px;
+    text-align: center;
+    border-style: dotted;
+    /* Стиль рамки */
+    border-width: thick;
+    /* Ширина рамки */
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: red;
+    border-radius: 15px;
+}
+
+.paraghraphs-container {
+    font-size: 50px;
+    text-align: center;
+}
+
+table, th, td{
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 70%;
+    height: 60px;
+    border: 1px solid black;
+    margin: 10px auto;
+  }
+  
+  td, th {
+    padding: 10px;  
+    height: 30px;
+  }
+
+  th {
+    background-color: rgb(135, 226, 157);
+    text-align: left
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  tr:hover {background-color: coral;}
